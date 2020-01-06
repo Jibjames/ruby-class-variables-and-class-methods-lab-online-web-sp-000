@@ -10,8 +10,13 @@ class Song
     @artist = artist
     @genre = genre
 
-    @@artists ||= @artist
-    @@genres ||= @genre
+    if !@@artists.include?(@artist)
+      @@artists << @artist
+    end
+
+    if !@@genres.include?(@genre)
+      @@genres << @genre
+    end 
 
     @@count += 1
   end

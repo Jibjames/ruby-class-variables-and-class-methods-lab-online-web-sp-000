@@ -24,5 +24,15 @@ class Song
     @@genres
   end
 
+  def artists()
+    @@artists
+  end
+
+  def genre_count()
+  end
+
+  def artist_count()
+
+  end
 
 end

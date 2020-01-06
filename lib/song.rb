@@ -21,22 +21,22 @@ class Song
     @@count += 1
   end
 
-  def count()
+  def self.count()
     @@count
   end
 
-  def genres()
+  def self.genres()
     @@genres
   end
 
-  def artists()
+  def self.artists()
     @@artists
   end
 
-  def genre_count()
+  def self.genre_count()
   end
 
-  def artist_count()
+  def self.artist_count()
 
   end
 
